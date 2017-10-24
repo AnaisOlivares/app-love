@@ -1,0 +1,241 @@
+/*CLASES REUTILIZABLES*/
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+body {
+  /*fuente a utilizar*/
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+
+.text-uppercase {
+  /*clase reutilizable que vuelve mayúscula las letras*/
+  text-transform: uppercase;
+}
+
+.logo-triangle {
+  position: absolute;
+  right: 10%;
+  margin: 3px blue solid;
+  width: 6%;
+}
+
+.menu {
+  position: relative;
+  left: 60px;
+  margin: 30px;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.menu a {
+  margin-right: 20px;
+}
+
+/*Titulos*/
+
+.tittles {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 170px;
+  padding-right: 50px;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.tittles h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.tittles h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tittles p {
+  color: white;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.tittles a {
+  color: white;
+  font-size: 12px;
+  padding: 15px;
+  background-color: #2ECC71;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.part2 {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #F17C72;
+  padding: 5px;
+  height: 650px;
+}
+
+.part2 div img {
+  height: 200px;
+  width: 200px;
+}
+
+.part2 h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 60px;
+}
+
+.part2 h4 {
+  color: white;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.part2 .foto1, .foto2, .foto3 {
+  float: left;
+  width: 33%;
+}
+
+.part2 h5 {
+  font-size: 14px;
+  color: white;
+}
+
+.part2 h6 {
+  font-size: 12px;
+  color: white;
+  line-height: 10px;
+  padding: 0px;
+  margin: 14px;
+}
+
+.part3 {
+  text-align: center;
+  height: 2600px;
+  width: 100%;
+}
+
+.part3 h4 {
+  color: rgb(59, 57, 55);
+  font-size: 16px;
+}
+
+.part3 div h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.part3 div img {
+  width: 950px;
+  height: 850px;
+}
+
+.part3 .part4 img {
+  width: 250px;
+  height: 250px;
+}
+
+.part3 .part4 div {
+  float: left;
+  margin: 80px;
+  padding-left: 24px;
+}
+.part3 p {
+  font-weight: bold;
+  color: #373B47;
+}
+footer {
+  clear: both;
+  text-align: center;
+  padding 5px;
+  background-color: #373B47;
+  height: 100%;
+  padding-top: 8px;
+  color: white;
+}
